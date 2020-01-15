@@ -64,10 +64,15 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Centering body */
+
 body{
 	margin: 20px auto;
 	width: 890px;
 }
+
+/* Navigation bar */
 
 nav {
 	display: inline-block;
@@ -85,17 +90,19 @@ nav {
 nav a{
 	text-decoration: none;
 	color: #D3D3D3;
-	padding: 0 22px;
-	margin: auto;
+	padding:  22px ;
+	margin: 0 auto;
 }
 nav img{
 	margin-left: 20px;
 }
 
+/* animation and hover */
+
 @keyframes comic-pop {
 	0%{font-size: 100%}
-	50%{font-size: 175%; }
-	100% {font-size: 150%;}
+	100%{font-size: 150%; }
+	
 }
 
 nav a:hover{
@@ -104,6 +111,9 @@ nav a:hover{
 	animation-name: comic-pop;
 	font-size: 150%;
 }
+
+
+/* Logo title area and header image */
 
 .title-section {
 	padding: 14% 300px 0 0;
@@ -138,6 +148,10 @@ nav a:hover{
 	font-family: 'Share Tech', sans-serif;
 }
 
+
+
+/* Features, About, and accent image aka upper info*/
+
 .features {
 
 	border-top: 1px solid black;
@@ -167,6 +181,8 @@ nav a:hover{
 }
 
 
+/* services, product, and vision aka lower info */
+
 .services {
 
 	border-bottom: 1px solid black;
@@ -191,6 +207,7 @@ nav a:hover{
 
 
 
+/* contact list */
 
 .contact{
 	margin-top: 10px;
@@ -199,6 +216,8 @@ nav a:hover{
 	margin: 0;
 	padding: 6px 0;
 }
+
+/* footer */
 
 footer {
 	text-align: center;
