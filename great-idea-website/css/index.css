@@ -65,19 +65,41 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body{
-	margin: auto;
+	margin: 20px auto;
 	width: 890px;
 }
 
 nav {
 	display: flex;
 	justify-content: space-around;
-	padding: 2%;
+	padding: 0 2% 5px;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	width: 890px;
+	background-color:white;
+	border-radius: 0 0 15px 15px;
+	border: 2px solid  black;
+	border-top: 0px;
+
 }
 nav a{
 	text-decoration: none;
 	color: #D3D3D3;
 	padding-top: 8px;
+}
+
+@keyframes comic-pop {
+	0%{font-size: 100%}
+	50%{font-size: 200%; }
+	100% {font-size: 150%;}
+}
+
+nav a:hover{
+	font-family: 'Share Tech', sans-serif;
+	animation-duration: 1s;
+	animation-name: comic-pop;
+	font-size: 150%;
 }
 
 .title-section {
@@ -112,8 +134,11 @@ nav a{
 }
 
 .title-section section a:hover{
-	color: #48D1CC;
-
+	/*color: #48D1CC;*/
+	font-family: 'Share Tech', sans-serif;
+	animation-duration: 1s;
+	animation-name: comic-pop;
+	font-size: 150%;
 }
 
 .features {
