@@ -64,3 +64,136 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	margin: 20px auto;
+	width: 890px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	padding: 0 2% 5px;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	width: 890px;
+	background-color:white;
+	border-radius: 0 0 15px 15px;
+	border: 2px solid  black;
+	border-top: 0px;
+
+}
+nav a{
+	text-decoration: none;
+	color: #D3D3D3;
+	padding-top: 8px;
+}
+
+@keyframes comic-pop {
+	0%{font-size: 100%}
+	50%{font-size: 200%; }
+	100% {font-size: 150%;}
+}
+
+nav a:hover{
+	font-family: 'Share Tech', sans-serif;
+	animation-duration: 1s;
+	animation-name: comic-pop;
+	font-size: 150%;
+}
+
+.title-section {
+	display: flex;
+	justify-content: center;
+	padding: 5% 0;
+}
+
+.title-section section {
+	padding-right: 100px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+
+
+}
+
+.title-section section h1{
+	font-size: 100px;
+	text-align: center;
+}
+.title-section section a{
+	margin: 0 25%;
+	padding: 5px 0;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	border: 2px solid gray;
+	
+	text-align: center;
+}
+
+.title-section section a:hover{
+	/*color: #48D1CC;*/
+	font-family: 'Share Tech', sans-serif;
+	animation-duration: 1s;
+	animation-name: comic-pop;
+	font-size: 150%;
+}
+
+.features {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid black;
+	margin: 3% 0;
+	font-size: 20px;
+}
+.features h2{
+	padding: 4% 0;
+}
+
+.features p, .features h2{
+	margin: 0 2%;
+}
+
+.middle-img {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.services {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	padding: 3% 0;
+	font-size: 20px;
+}
+
+.services h2{
+	padding-bottom: 4%;
+}
+
+.services p, .services h2{
+	margin: 0 2%;
+}
+
+
+
+
+.contact{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	margin-top: 10px;
+}
+.contact p, .contact h2{
+	margin: 0;
+	padding: 6px 0;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
