@@ -64,3 +64,248 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* Centering body */
+
+body{
+	margin: 20px auto;
+	width: 890px;
+}
+
+/* Navigation bar */
+
+nav {
+	display: inline-block;
+	padding: 0 15px 5px;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	width: 890px;
+	background-color:white;
+	border-radius: 0 0 15px 15px;
+	border: 2px solid  black;
+	border-top: 0px;
+
+}
+nav a{
+	text-decoration: none;
+	color: black;
+	font-style: oblique;
+	font-weight: bolder;
+	padding: 0 22px ;
+	margin: 0 auto;
+}
+nav img{
+	margin-left: 20px;
+}
+
+/* animation and hover */
+
+@keyframes comic-pop {
+	0%{font-size: 100%}
+	100%{font-size: 150%; }
+	
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:64% 0%}
+    50%{background-position:37% 100%}
+    100%{background-position:64% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:64% 0%}
+    50%{background-position:37% 100%}
+    100%{background-position:64% 0%}
+}
+
+nav:hover{
+	background: linear-gradient(202deg, white, #00fdbc, #ffd800, #cd43ec);
+	background-size: 600% 600%;
+	-webkit-animation: AnimationName 6s ease infinite;
+	animation: AnimationName 6s ease infinite;
+}
+
+nav a:hover{
+	font-family: 'Share Tech', sans-serif;
+	animation-duration: 1s;
+	animation-name: comic-pop;
+	font-size: 150%;
+}
+
+
+/* Logo title area and header image */
+
+.title-section {
+	padding: 14% 300px 0 0;
+	background-image: url('../img/header-img.png');
+	background-position: right;
+	background-size: initial;
+	background-repeat: no-repeat;
+}
+
+.title-section section {
+	padding-right: 140px;
+}
+
+.title-section section h1{
+	font-size: 100px;
+	text-align: center;
+}
+.title-section section a{
+	margin: 0 35%;
+	padding: 3px 6px;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	border: 2px solid gray;
+	
+	text-align: center;
+}
+
+
+
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:64% 0%}
+    50%{background-position:37% 100%}
+    100%{background-position:64% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:64% 0%}
+    50%{background-position:37% 100%}
+    100%{background-position:64% 0%}
+}
+
+.title-section section a:hover{
+	/* color: #48D1CC; */
+	font-family: 'Share Tech', sans-serif;
+	background: linear-gradient(202deg, #00fdbc, #ffd800, #cd43ec);
+	background-size: 600% 600%;
+	/* -webkit-animation: AnimationName 6s ease infinite; */
+	animation: AnimationName 6s ease infinite;
+}
+
+
+
+/* Features, About, and accent image aka upper info*/
+
+.features {
+
+	border-top: 1px solid black;
+	margin: 3% 0 0 0;
+	font-size: 20px;
+	padding-bottom: 200px;
+
+	background-image: url('../img/mid-page-accent.jpg');
+	background-position: bottom;
+	background-size: initial;
+	background-repeat: no-repeat;
+	
+}
+
+.features section{
+	display: inline-block;
+	width: 49%;
+	padding-bottom: 30px;
+}
+.features h2{
+	padding: 4% 0;
+}
+
+.features p, .features h2{
+
+	margin: 0 2%;
+}
+
+
+/* services, product, and vision aka lower info */
+
+.services {
+
+	border-bottom: 1px solid black;
+	padding: 3% 0;
+	font-size: 20px;
+	
+}
+
+.services section{
+	display: inline-block;
+	width: 33%;
+	padding: 20px 0 0 0;
+	
+}
+.services h2{
+	padding-bottom: 4%;
+}
+
+.services p, .services h2{
+	margin: 0 2%;
+}
+
+
+
+/* contact list */
+
+.contact{
+	margin-top: 10px;
+}
+.contact p, .contact h2{
+	margin: 0;
+	padding: 6px 0;
+}
+
+/* footer */
+
+footer {
+	text-align: center;
+}
+
+
+
+/* Features Page */
+
+
+.featureTitle{
+	margin-top: 70px;
+	font-size: 100px;
+	text-align: center;
+}
+
+
+
+
+.featureSection{
+	width: 63%;
+	padding: 30px 0 30px 0;
+	border-bottom: 1px solid black;	
+	border-top: 1px solid black;	
+	margin-left: 25px;
+
+}
+
+
+
+.featureImg{
+	width: 33.33%;	
+	margin-top: 88px;
+	padding: 22px 0 22px 50px ;
+ 
+	
+
+}
+
+.featureSection,
+.featureImg {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.featureImg img{
+	height: 300px;
+	width: 200px;
+	object-fit: cover;
+	margin: -66px 0 22px 0;
+	vertical-align: top;
+}
+
