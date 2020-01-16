@@ -137,8 +137,7 @@ nav a:hover{
 
 .title-section {
 	padding: 14% 300px 0 0;
-
-	background-image: url('http://127.0.0.1:5500/great-idea-website/img/header-img.png');
+	background-image: url('../img/header-img.png');
 	background-position: right;
 	background-size: initial;
 	background-repeat: no-repeat;
@@ -198,7 +197,7 @@ nav a:hover{
 	font-size: 20px;
 	padding-bottom: 200px;
 
-	background-image: url('http://127.0.0.1:5500/great-idea-website/img/mid-page-accent.jpg');
+	background-image: url('../img/mid-page-accent.jpg');
 	background-position: bottom;
 	background-size: initial;
 	background-repeat: no-repeat;
